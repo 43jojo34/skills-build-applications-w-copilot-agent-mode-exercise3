@@ -1,3 +1,14 @@
 .navbar-brand {
   letter-spacing: 0.02em;
 }
+
+.dashboard-logo {
+  width: min(100%, 180px);
+  height: auto;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
