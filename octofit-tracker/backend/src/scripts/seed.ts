@@ -12,6 +12,10 @@ const users = [
   { username: 'casey-fit', email: 'casey@example.com', displayName: 'Casey Patel' },
 ];
 
+/**
+ * Seed octofit_db with representative test data for users, teams, activities,
+ * leaderboard entries, and workouts.
+ */
 async function seedDatabase(): Promise<void> {
   try {
     await mongoose.connect(connectionString);
