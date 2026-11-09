@@ -13,7 +13,7 @@ const users = [
 ];
 
 /**
- * Seed octofit_db with representative test data for users, teams, activities,
+ * Seed the octofit_db database with test data for users, teams, activities,
  * leaderboard entries, and workouts.
  */
 async function seedDatabase(): Promise<void> {
